@@ -3,8 +3,8 @@
  */
 const CONFIG = {
   // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '/images/starter/cdsds.png', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '/images/starter/cdsds.png', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  STARTER_LOGO: '中国科学院', // 普通logo图片 示例：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
@@ -22,7 +22,7 @@ const CONFIG = {
 
   // 英雄区配图，如需隐藏，改为空值即可 ''
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/cdsds.png', // 产品预览图 ，默认读取public目录下图片
-  STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
+  STARTER_HERO_BANNER_IMAGE: '/images/starter/cdsds.png', // hero区下方的全宽图
 
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: '',

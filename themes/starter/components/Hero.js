@@ -109,17 +109,16 @@ export const Hero = props => {
       {/* 横幅图片 */}
        {siteConfig('STARTER_HERO_BANNER_IMAGE', null, config) && (
         <div className='container'>
-          <div class="img-wrapper block max-w-full overflow-hidden">
-            <LazyImage
-              priority
-              className='left-0 w-full'
-              src={siteConfig(
-                'STARTER_HERO_BANNER_IMAGE',
-                null,
-                config
-              )}></LazyImage>
-          </div>
-        )}
+          <LazyImage
+            priority
+            className='left-0 w-full'
+            src={siteConfig(
+              'STARTER_HERO_BANNER_IMAGE',
+              null,
+              config
+            )}></LazyImage>
+        </div>
+      )}
       {/* <!-- ====== Hero Section End --> */}
     </>
   )

@@ -108,7 +108,7 @@ export const Hero = props => {
       </div>
       {/* 横幅图片 */}
        {siteConfig('STARTER_HERO_BANNER_IMAGE', null, config) && (
-        <div className='container px-0 '>
+        <div className='px-0 '>
           <LazyImage
             priority
             className='left-0 w-full'

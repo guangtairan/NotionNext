@@ -112,7 +112,7 @@ export const Hero = props => {
           <div class="img-wrapper">
             <LazyImage
             priority
-            className='left-0 w-full'
+            className='absolute left-0 w-full'
             src={siteConfig(
               'STARTER_HERO_BANNER_IMAGE',
               null,

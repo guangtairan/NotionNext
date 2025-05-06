@@ -33,29 +33,29 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
-  STARTER_FEATURE_TEXT_2:
-    'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+  // STARTER_FEATURE_TITLE: '特性', // 特性
+  STARTER_FEATURE_TEXT_1: '研究方向', // 特性
+  // STARTER_FEATURE_TEXT_2:
+  //   'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
+  STARTER_FEATURE_1_TITLE_1: '地表土壤水分遥感反演', // 特性1
+  // STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '地表温度动态监测', // 特性2
+  // STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '地表参数空间尺度转换机理与方法', // 特性3
+  // STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '山地全球变化遥感监测', // 特性4
+  // STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
 
@@ -199,43 +199,43 @@ const CONFIG = {
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: '团队成员',
-  STARTER_TEAM_TEXT_1: '我们的开发者团队',
-  STARTER_TEAM_TEXT_2:
-    'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
+  // STARTER_TEAM_TITLE: '团队成员',
+  STARTER_TEAM_TEXT_1: '团队成员',
+  // STARTER_TEAM_TEXT_2:
+  //   'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
     {
       STARTER_TEAM_ITEM_AVATAR:
         'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
-      STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+      STARTER_TEAM_ITEM_NICKNAME: '赵伟',
+      STARTER_TEAM_ITEM_DESCRIPTION: '研究员'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+      STARTER_TEAM_ITEM_NICKNAME: 'xx',
+      STARTER_TEAM_ITEM_DESCRIPTION: '教授'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+      STARTER_TEAM_ITEM_NICKNAME: 'xx',
+      STARTER_TEAM_ITEM_DESCRIPTION: '教授'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+      STARTER_TEAM_ITEM_NICKNAME: 'xx',
+      STARTER_TEAM_ITEM_DESCRIPTION: '教授'
     }
   ],
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  // STARTER_BLOG_TITLE: '我们的博客',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: '最近进展',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    // '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关

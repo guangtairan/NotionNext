@@ -65,7 +65,7 @@ export const Logo = props => {
             router.push('/')
           }}
           className={`${logoTextColor} logo dark:text-white py-1.5 header-logo-text whitespace-nowrap text-2xl font-semibold`}>
-          {siteConfig('TITLE')}
+          数字山地与遥感应用中心
         </span>
       </div>
     </div>

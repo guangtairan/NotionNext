@@ -15,7 +15,6 @@ export const Hero = props => {
       <div
         id='home'
         className='relative overflow-hidden bg-primary pt-[0px] md:pt-[0px] lg:pt-[0px]'>
-        // className='relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap items-center'>
             <div className='w-full px-4'>

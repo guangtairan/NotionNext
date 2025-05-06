@@ -6,6 +6,11 @@ html {
   overflow-x: hidden;
 }
 
+.img-wrapper {
+    display: block; /* 使其作为块级元素显示 */
+    max-width: 100%; /* 确保图片宽度不会超出父容器，实现自动适应 */
+    overflow: hidden; /* 隐藏超出部分，防止图片溢出 */
+}
 .wrapper {
   min-height: 100vh;
   display: flex;

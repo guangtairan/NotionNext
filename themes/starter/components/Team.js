@@ -53,9 +53,8 @@ export const Team = () => {
                     {/* 文字介绍 */}
                     <div className='text-center'>
                       <Link
-                      href={siteConfig('STARTER_FEATURE_1_BUTTON_URL', '')}
-                      className='text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary'>
-                      {siteConfig('STARTER_FEATURE_1_BUTTON_TEXT')}
+                      href='www.baidu.com'
+                      className='text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary'>123
                       </Link>
                       <p className='mb-5 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION}

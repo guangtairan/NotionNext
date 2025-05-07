@@ -233,7 +233,7 @@ const CONFIG = {
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '',
   STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近进展',
+  STARTER_BLOG_TEXT_1: '研究进展',
   // STARTER_BLOG_TEXT_2:
   //   '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
 
@@ -299,47 +299,41 @@ const CONFIG = {
     {
       TITLE: '关于我们',
       LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        { TITLE: '操作文档', URL: 'https://docs.tangly1024.com/about' },
+        { TITLE: '团队主页', URL: '/#home' },
+        { TITLE: '山地所主页', URL: 'https://www.imde.cas.cn/' },
         {
-          TITLE: '帮助支持',
-          URL: 'https://docs.tangly1024.com/article/how-to-question'
+          TITLE: '国科大主页',
+          URL: 'https://www.ucas.ac.cn/'
         },
-        {
-          TITLE: '合作申请',
-          URL: 'https://docs.tangly1024.com/article/my-service'
-        }
       ]
     },
     {
-      TITLE: '功能特性',
+      TITLE: '联系电话',
       LINK_GROUP: [
         {
-          TITLE: '部署指南',
-          URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next'
+          TITLE: '111'
         },
         {
-          TITLE: '升级指南',
-          URL: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
+          TITLE: '222'
         },
-        { TITLE: '最新版本', URL: 'https://docs.tangly1024.com/article/latest' }
+        { TITLE: '333' }
       ]
-    },
-    {
-      TITLE: 'Notion写作',
-      LINK_GROUP: [
-        {
-          TITLE: 'Notion开始写作',
-          URL: 'https://docs.tangly1024.com/article/start-to-write'
-        },
-        {
-          TITLE: '快捷键提升效率',
-          URL: 'https://docs.tangly1024.com/article/notion-short-key'
-        },
-        {
-          TITLE: '中国大陆使用Notion',
-          URL: 'https://docs.tangly1024.com/article/notion-faster'
-        }
+    // },
+    // {
+    //   TITLE: 'Notion写作',
+    //   LINK_GROUP: [
+    //     {
+    //       TITLE: 'Notion开始写作',
+    //       URL: 'https://docs.tangly1024.com/article/start-to-write'
+    //     },
+    //     {
+    //       TITLE: '快捷键提升效率',
+    //       URL: 'https://docs.tangly1024.com/article/notion-short-key'
+    //     },
+    //     {
+    //       TITLE: '中国大陆使用Notion',
+    //       URL: 'https://docs.tangly1024.com/article/notion-faster'
+    //     }
       ]
     }
   ],

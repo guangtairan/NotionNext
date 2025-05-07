@@ -134,11 +134,11 @@ export const Footer = props => {
                   <p className='text-base text-gray-7'>
                     欢迎加入
                     <a
-                      href='https://github.com/tangly1024/NotionNext'
+                      href='https://notion-next-lgak.vercel.app'
                       rel='nofollow noopner noreferrer'
                       target='_blank'
                       className='px-1 text-gray-1 hover:underline'>
-                      我们 {"https://notion-next-lgak.vercel.app/"}
+                      我们
                     </a>
                   </p>
                 </div>

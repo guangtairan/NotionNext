@@ -93,8 +93,6 @@ const LayoutIndex = props => {
     <>
       {/* 英雄区 */}
       {siteConfig('STARTER_HERO_ENABLE', true, CONFIG) && <Hero {...props} />}
-      {/* 合作伙伴 */}
-      {siteConfig('STARTER_BRANDS_ENABLE', true, CONFIG) && <Brand />}
       {/* 产品特性 */}
       {siteConfig('STARTER_FEATURE_ENABLE', true, CONFIG) && <Features />}
       {/* 关于 */}
@@ -123,7 +121,8 @@ const LayoutIndex = props => {
       )}
       {/* 联系方式 */}
       {siteConfig('STARTER_CONTACT_ENABLE', true, CONFIG) && <Contact />}
-
+      {/* 合作伙伴 */}
+      {siteConfig('STARTER_BRANDS_ENABLE', true, CONFIG) && <Brand />}
       {/* 行动呼吁 */}
       {siteConfig('STARTER_CTA_ENABLE', true, CONFIG) && <CTA />}
     </>

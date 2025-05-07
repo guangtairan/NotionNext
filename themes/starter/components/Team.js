@@ -52,10 +52,11 @@ export const Team = () => {
 
                     {/* 文字介绍 */}
                     <div className='text-center'>
-                      <h4 className='mb-1 text-lg font-semibold text-dark dark:text-white'>
-                        {item.STARTER_TEAM_ITEM_NICKNAME}
-                      </h4>
-
+                      <Link
+                      href={siteConfig('STARTER_FEATURE_1_BUTTON_URL', '')}
+                      className='text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary'>
+                      {siteConfig('STARTER_FEATURE_1_BUTTON_TEXT')}
+                      </Link>
                       <p className='mb-5 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION}
                       </p>

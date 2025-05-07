@@ -307,16 +307,18 @@ const CONFIG = {
         },
       ]
     },
-    {
-      TITLE: '联系电话',
+   {
+      TITLE: '团队风采',
       LINK_GROUP: [
         {
-          TITLE: '111'
+          TITLE: '老师',
+          URL: 'https://notion-next-lgak.vercel.app/article/team'
         },
         {
-          TITLE: '222'
+          TITLE: '学生',
+          URL: 'https://notion-next-lgak.vercel.app/article/team'
         },
-        { TITLE: '333' }
+        { TITLE: '集体', URL: 'https://notion-next-lgak.vercel.app/team' }
       ]
     },
     {

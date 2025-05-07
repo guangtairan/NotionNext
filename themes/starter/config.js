@@ -258,10 +258,10 @@ const CONFIG = {
   //   STARTER_CONTACT_MSG_THANKS: '感谢您的留言',
 
   // 合作伙伴的图标
-  STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
+  STARTER_BRANDS_ENABLE: false, // 合作伙伴开关
   STARTER_BRANDS: [
     {
-      IMAGE: '/images/starter/brands/graygrids.svg',
+      IMAGE: '/images/starter/gkdblue (2).png',
       IMAGE_WHITE: '/images/starter/brands/graygrids-white.svg',
       URL: 'https://graygrids.com/',
       TITLE: 'graygrids'
@@ -273,7 +273,7 @@ const CONFIG = {
       TITLE: 'lineicons'
     },
     {
-      IMAGE: '/images/starter/brands/uideck.svg',
+      IMAGE: '/images/starter/gkdblue (2).png',
       IMAGE_WHITE: '/images/starter/brands/uideck-white.svg',
       URL: 'https://uideck.com/',
       TITLE: 'uideck'

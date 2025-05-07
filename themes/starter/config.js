@@ -41,23 +41,23 @@ const CONFIG = {
   STARTER_FEATURE_1_TITLE_1: '地表土壤水分遥感反演', // 特性1
   // STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://notion-next-lgak.vercel.app/article/new1', // 特性1
 
   STARTER_FEATURE_2_TITLE_1: '地表温度动态监测', // 特性2
   // STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
-    'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+    'https://notion-next-lgak.vercel.app/article/new2', // 特性2
 
   STARTER_FEATURE_3_TITLE_1: '地表参数空间尺度转换', // 特性3
   // STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://notion-next-lgak.vercel.app/article/new3', // 特性3
 
   STARTER_FEATURE_4_TITLE_1: '山地全球变化遥感监测', // 特性4
   // STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://notion-next-lgak.vercel.app/article/new4', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: false, // ABOUT区块开关

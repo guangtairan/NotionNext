@@ -52,7 +52,7 @@ export const Team = () => {
 
                     {/* 文字介绍 */}
                    <div className='text-center'>
-                      <a href="https://www.baidu.com" className='mb-1 text-lg font-semibold text-dark dark:text-white'>{item.STARTER_TEAM_ITEM_NICKNAME}
+                      <a href="https://www.baidu.com" className='mb-1 text-lg font-semibold text-dark dark:text-white hover:text-primary'>{item.STARTER_TEAM_ITEM_NICKNAME}
                       </a>
                       <p className='mb-5 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION}

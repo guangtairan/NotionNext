@@ -14,7 +14,6 @@ export const Brand = () => {
       <section className='py-20 dark:bg-dark'>
         <section className='py-20 dark:bg-dark'>
         <div className='container px-4'>
-          <div className='mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]'>合作伙伴
           <div className='-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11'>
             {brands?.map((item, index) => {
               return (

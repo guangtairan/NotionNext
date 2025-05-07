@@ -51,11 +51,10 @@ export const Team = () => {
                     </div>
 
                     {/* 文字介绍 */}
-                    <div className='text-center'>
-                      <Link
-                      href='www.baidu.com'
-                      className='text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary'>123
-                      </Link>
+                   <div className='text-center'>
+                      <h4 className='mb-1 text-lg font-semibold text-dark dark:text-white'>
+                        {item.STARTER_TEAM_ITEM_NICKNAME}
+                      </h4>
                       <p className='mb-5 text-sm text-body-color dark:text-dark-6'>
                         {item.STARTER_TEAM_ITEM_DESCRIPTION}
                       </p>

@@ -220,7 +220,7 @@ const CONFIG = {
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
       STARTER_TEAM_ITEM_NICKNAME: 'xxx',
-      STARTER_TEAM_ITEM_DESCRIPTION: '研究员Digital Marketer'
+      STARTER_TEAM_ITEM_DESCRIPTION: '研究员'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
@@ -259,7 +259,6 @@ const CONFIG = {
 
   // 合作伙伴的图标
   STARTER_BRANDS_ENABLE: true, // 合作伙伴开关
-  STARTER_TEAM_TEXT_1: '合作伙伴',
   STARTER_BRANDS: [
     {
       IMAGE: '/images/starter/brands/graygrids.svg',
@@ -293,7 +292,7 @@ const CONFIG = {
     }
   ],
 
-  STARTER_FOOTER_SLOGAN: '联系地址：成都市人民南路4段9号，中科院成都山地所新楼411 ',
+  STARTER_FOOTER_SLOGAN: '联系地址：            成都市人民南路4段9号，       中科院成都山地所新楼411 ',
 
   // 页脚三列菜单组
   STARTER_FOOTER_LINK_GROUP: [

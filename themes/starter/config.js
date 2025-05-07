@@ -318,22 +318,22 @@ const CONFIG = {
         },
         { TITLE: '333' }
       ]
-    // },
-    // {
-    //   TITLE: 'Notion写作',
-    //   LINK_GROUP: [
-    //     {
-    //       TITLE: 'Notion开始写作',
-    //       URL: 'https://docs.tangly1024.com/article/start-to-write'
-    //     },
-    //     {
-    //       TITLE: '快捷键提升效率',
-    //       URL: 'https://docs.tangly1024.com/article/notion-short-key'
-    //     },
-    //     {
-    //       TITLE: '中国大陆使用Notion',
-    //       URL: 'https://docs.tangly1024.com/article/notion-faster'
-    //     }
+    },
+    {
+      TITLE: '往期回顾',
+      LINK_GROUP: [
+        {
+          TITLE: '2022',
+          URL: 'https://notion-next-lgak.vercel.app/article/new3'
+        },
+        {
+          TITLE: '2023',
+          URL: 'https://notion-next-lgak.vercel.app/article/new2'
+        },
+        {
+          TITLE: '2024',
+          URL: 'https://notion-next-lgak.vercel.app/article/new1'
+        }
       ]
     }
   ],
